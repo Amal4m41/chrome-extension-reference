@@ -1,0 +1,20 @@
+{
+    "manifest_version": 3,
+    "name": "User auth demo",
+    "version": "1.0",
+    "description": "Test user auth for chrome extensions",
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "permissions": [
+        "identity"
+    ],
+    "oauth2": {
+        "client_id": "186560762204-7eo2o5pjude9jb0aa66tmcqpu811ghk1.apps.googleusercontent.com",
+        "scopes": [
+            "https://www.googleapis.com/auth/contacts.readonly",
+            "https://www.googleapis.com/auth/userinfo.email",
+            "https://www.googleapis.com/auth/gmail.readonly"
+        ]
+    }
+}
